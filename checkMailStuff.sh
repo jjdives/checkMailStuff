@@ -10,7 +10,7 @@ then
     exit 1
 fi
 echo
-echo "Checking for DKIM on $1 using selector $2"
+echo "Checking for DKIM, SPF, and DMARC on $1 using selector $2"
 
 ECHO ---------DKIM---------
 if [ -z "$2" ]
